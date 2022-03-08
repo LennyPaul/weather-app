@@ -7,6 +7,7 @@
     <meta name="description" content="La méteo de chez vous" />
     <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/loader.css" />
     <script src="main.js" defer></script>
   </head>
   <body>
@@ -14,50 +15,62 @@
       <h1>Weather App</h1>
     </header>
     <main>
-      <section class="today">
-        <img/>
-        <h2></h2>
-        <div>
-          <p class="locate"></p>
-          <p class="date">Date</p>
+      <div class="content">
+        <div class="load">
+          <h1>CHARGEMENT</h1>
+          <div class="lds-ring">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+          </div>
         </div>
-      </section>
-      <section class="hours">
-        <figure>
-        </figure>
-        <figure></figure>
-        <figure></figure>
-        <figure></figure>
-        <figure></figure>
-        <figure></figure>
-        <figure></figure>
-        <figure></figure>
-        <figure></figure>
-        <figure></figure>
-        <figure></figure>
-        <figure></figure>
-        <figure></figure>
-        <figure></figure>
-        <figure></figure>
-        <figure></figure>
-        <figure></figure>
-        <figure></figure>
-        <figure></figure>
-        <figure></figure>
-        <figure></figure>
-        <figure></figure>
-        <figure></figure>
-        <figure></figure>
-        <figure></figure>
-      </section>
-      <section class="days">
-        <figure></figure>
-        <figure></figure>
-        <figure></figure>
-        <figure></figure>
-        <figure></figure>
-        <figure></figure>
-      </section>
+      </div>
+      <template>
+        <section class="today">
+          <img />
+          <h2></h2>
+          <div>
+            <p class="locate"></p>
+            <p class="date">Date</p>
+          </div>
+        </section>
+        <section class="hours">
+          <figure></figure>
+          <figure></figure>
+          <figure></figure>
+          <figure></figure>
+          <figure></figure>
+          <figure></figure>
+          <figure></figure>
+          <figure></figure>
+          <figure></figure>
+          <figure></figure>
+          <figure></figure>
+          <figure></figure>
+          <figure></figure>
+          <figure></figure>
+          <figure></figure>
+          <figure></figure>
+          <figure></figure>
+          <figure></figure>
+          <figure></figure>
+          <figure></figure>
+          <figure></figure>
+          <figure></figure>
+          <figure></figure>
+          <figure></figure>
+          <figure></figure>
+        </section>
+        <section class="days">
+          <figure></figure>
+          <figure></figure>
+          <figure></figure>
+          <figure></figure>
+          <figure></figure>
+          <figure></figure>
+        </section>
+      </template>
     </main>
   </body>
 </html>
