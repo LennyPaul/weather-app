@@ -1,0 +1,25 @@
+{
+  "background_color": "#312b31",
+
+  "orientation": "portrait",
+
+  "description": "Obtenez rapidement la météo locale pour les 24 prochaines heures et les six prochains jours !",
+
+  "display": "fullscreen",
+
+  "icons": [
+    {
+      "src": "img/icon.png",
+
+      "sizes": "512x512",
+
+      "type": "image/png"
+    }
+  ],
+
+  "name": "Weather-App",
+
+  "short_name": "Météo",
+
+  "start_url": "/index.html"
+}
